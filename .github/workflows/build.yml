@@ -34,4 +34,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: ./gradlew build
-#For error permission handle into project directory cmd git update-index --chmod=+x gradlew
+#For error permission handle into project directory cmd  git update-index --chmod=+x gradlew
